@@ -1,0 +1,13 @@
+javascript/package-lock.json
+javascript/bower_components/
+javascript/node_modules/.bin/cake
+javascript/node_modules/
+node_modules/
+package-lock.json
+angular6-plugin/.editorconfig
+bower_components/
+/angular6-plugin
+/.idea
+/dist
+jsql-javascript-plugin.iml
+/jsql-javascript-plugin.iml

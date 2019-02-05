@@ -1,0 +1,25 @@
+{
+  "name": "jsql-javascript",
+  "version": "1.1.9",
+  "description": "JSQL plugin for JavaScript",
+  "main": "jsql-javascript.min.js",
+  "scripts": {},
+  "keywords": [
+    "jsql-javascript",
+    "jsql",
+    "jsql-it",
+    "jsql-optimization"
+  ],
+  "author": "JSQL",
+  "license": "ISC",
+  "dependencies": {
+    "jsql-core": "^1.1.6"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-clean": "^1.0.0"
+  }
+}
