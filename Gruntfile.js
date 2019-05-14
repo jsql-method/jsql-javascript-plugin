@@ -49,7 +49,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: '.',
-                        src: ['isc.md', 'package.json'],
+                        src: ['LICENSE.md', 'package.json'],
                         dest: './dist'
                     }
                 ]

@@ -1,6 +1,6 @@
 {
   "name": "jsql-javascript",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "description": "JSQL plugin for JavaScript",
   "main": "jsql-javascript.min.js",
   "scripts": {},
@@ -11,9 +11,14 @@
     "jsql-optimization"
   ],
   "author": "JSQL",
-  "license": "ISC",
+  "licenses": [
+    {
+      "type": "LicenseRef-LICENSE",
+      "url": "https://jsql.it/public-packages-license"
+    }
+  ],
   "dependencies": {
-    "jsql-core": "^1.1.6"
+    "jsql-core": "^1.1.8"
   },
   "devDependencies": {
     "grunt": "^1.0.3",
