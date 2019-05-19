@@ -1,8 +1,6 @@
 /*
- * jsql
- *
- * Copyright (c) 2018 JSQL
- * Licensed under the ISC license.
+ * Copyright (c) 2017-2019 JSQL Sp. z.o.o. (Ltd, LLC) www.jsql.it
+ * See LICENSE or https://jsql.it/public-packages-license
  */
 
 'use strict';
@@ -25,7 +23,7 @@ module.exports = function (grunt) {
 				dest: 'dist/jsql-javascript.js'
 			},
             local: {
-                src: ['../jsql-js-core/dist/jsql-core.min.js', 'src/jsql-javascript.js'],
+                src: ['../jsql-js-core/dist/jsql-core.js', 'src/jsql-javascript.js'],
                 dest: 'dist/jsql-javascript.js'
             }
 		},
@@ -65,7 +63,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
 
-    grunt.registerTask('dev', ['concat:local', 'uglify']);
+    grunt.registerTask('dev', ['concat:local']);
     grunt.registerTask('default', ['clean', 'copy', 'concat:dist', 'uglify', 'clean:publish']);
 
 };
